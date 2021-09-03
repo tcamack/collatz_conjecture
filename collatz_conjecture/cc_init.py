@@ -5,9 +5,6 @@ import sys
 import cc_ns
 import cc_rs
 
-#from cc_ns import ns_launch
-#from cc_rs import rs_launch
-
 invalid_selection = False
 invalid_restart = False
 
@@ -38,11 +35,11 @@ def main(): #FUNCTION TO SELECT TEST
         selection = int(str_selection)
 
         if selection == 1:
-            invalid_selection = False
+            invalid_selection = False #invalid_selection IS SET TO FALSE AFTER A CORRECT INPUT FOR CONTINUITY, IT'S NOT ACTUALLY NEEDED FOR FUNCTIONALITY
             clear()
             cc_ns.ns_launch()
         elif selection == 2:
-            invalid_selection = False
+            invalid_selection = False #invalid_selection IS SET TO FALSE AFTER A CORRECT INPUT FOR CONTINUITY, IT'S NOT ACTUALLY NEEDED FOR FUNCTIONALITY
             clear()
             cc_rs.rs_launch()
         else:
@@ -76,4 +73,3 @@ def cc_restart():
         print("ERROR: INPUT NOT RECOGNIZED")
         print("")
         cc_restart()
-#invalid_selection IS SET TO FALSE AFTER A CORRECT INPUT FOR CONTINUITY, IT'S NOT ACTUALLY NEEDED FOR FUNCTIONALITY

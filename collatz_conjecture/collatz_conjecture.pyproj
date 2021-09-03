@@ -23,7 +23,7 @@
   <ItemGroup>
     <Compile Include="cc_rs.py" />
     <Compile Include="cc_ns.py" />
-    <Compile Include="cc_start.py" />
+    <Compile Include="cc_init.py" />
     <Compile Include="launch.py">
       <SubType>Code</SubType>
     </Compile>

@@ -1,5 +1,5 @@
 #LAUNCH PROGRAM
 
-from cc_start import main
+from cc_init import main
 
 main()

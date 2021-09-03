@@ -125,5 +125,5 @@ def collatz(): #MAIN MATHS
 
     input("Press Enter to continue...") #CLOSE FILE AFTER HITTING ENTER KEY
     clear()
-    import cc_start
-    cc_start.cc_restart()
+    import cc_init
+    cc_init.cc_restart()
