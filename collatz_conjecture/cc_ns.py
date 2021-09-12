@@ -21,7 +21,7 @@ def space(): #FUNCTION TO SAVE LINES
     print("------------------------------------------------------------------------------------------")
     print("")
 
-def ns_launch(): #includes checking for integer
+def ns_launch(): #INCLUDES INTEGER CHECK FOR NUMBER OF TESTS TO CONDUCT
     global baseNum
     global invalid_number
 
@@ -81,7 +81,7 @@ def output(): #OUTPUT IF LOGGING IS ENABLED
 
     f.close()
 
-def collatz(): #MAIN MATHS
+def collatz(): #MAIN MATH
     global tCount
     global m_list
 
